@@ -57,38 +57,6 @@ nav .navbar-collapse ul li {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 768px) {
-  .navbar-collapse {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .home-name {
-    font-size: 3.3rem;
-  }
-
-  .nav {
-    padding-left: 10%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-  }
-
-  .about-prof {
-    width: 15rem;
-    border-radius: 50%;
-  }
-
-  .about-header {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-  }
-
-  .anchor {
-    top: -70px;
-  }
-}
-
 .layout-dark {
   min-height: 100vh;
   background-color: #000000;
@@ -227,7 +195,6 @@ nav .navbar-collapse ul li {
   object-fit: cover;
 }
 
-
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -327,30 +294,6 @@ nav .navbar-collapse ul li {
   object-fit: cover;
 }
 
-@media (max-width: 600px) {
-  .image-container a {
-    width: 200px;
-    height: 200px;
-  }
-
-  .icon-container a {
-    width: 50px;
-    height: 50px;
-  }
-}
-
-@media (max-width: 400px) {
-  .image-container a {
-    width: 150px;
-    height: 150px;
-  }
-
-  .icon-container a {
-    width: 40px;
-    height: 40px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -378,4 +321,69 @@ nav .navbar-collapse ul li {
 .footer-link:active {
   color: white;
   text-decoration: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-collapse {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .home-name {
+    font-size: 3rem;
+  }
+
+  .nav {
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .about-prof {
+    width: 15rem;
+    border-radius: 50%;
+  }
+
+  .about-header {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .anchor {
+    top: -70px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .image-container a {
+    width: 200px;
+    height: 200px;
+  }
+
+  .icon-container a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .home-name {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .image-container a {
+    width: 150px;
+    height: 150px;
+  }
+
+  .icon-container a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .home-name {
+    font-size: 2rem;
+  }
 }
