@@ -39,6 +39,7 @@ html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: var(--color-accent) var(--color-bg-dark);
+  overflow-x: hidden;
 }
 
 html::-webkit-scrollbar {
@@ -61,6 +62,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -222,6 +224,10 @@ nav .navbar-collapse ul li a.nav-link:hover {
 
 .accent-dot {
   color: var(--color-accent);
+  -webkit-text-fill-color: var(--color-accent);
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
 }
 
 .hero-tagline {
@@ -948,12 +954,14 @@ nav .navbar-collapse ul li a.nav-link:hover {
   margin: 0 0 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .skills-icons {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
 }
 
 .skill-icon {
@@ -1066,10 +1074,13 @@ nav .navbar-collapse ul li a.nav-link:hover {
     flex-direction: column;
     text-align: center;
     gap: 60px;
+    padding: 0 16px;
+    overflow: visible;
   }
   
   .hero-text {
     max-width: 100%;
+    overflow: visible;
   }
   
   .hero-cta {
@@ -1115,13 +1126,25 @@ nav .navbar-collapse ul li a.nav-link:hover {
     padding: 100px 16px 60px;
   }
   
+  .hero::before {
+    right: -50%;
+    width: 100%;
+  }
+  
+  .hero-image-glow {
+    right: -10px;
+    left: 10px;
+  }
+  
   .hero-badge {
     font-size: 0.75rem;
     padding: 6px 12px;
   }
   
   .hero-name {
+    font-size: clamp(2rem, 10vw, 3.5rem);
     letter-spacing: -1px;
+    white-space: nowrap;
   }
   
   .hero-tagline {
@@ -1208,6 +1231,10 @@ nav .navbar-collapse ul li a.nav-link:hover {
     padding: 0 16px;
   }
   
+  .hero-name {
+    font-size: clamp(1.75rem, 12vw, 2.5rem);
+  }
+  
   .hero-image-wrapper {
     width: 200px;
     height: 260px;
@@ -1223,6 +1250,11 @@ nav .navbar-collapse ul li a.nav-link:hover {
     left: 12px;
     right: -12px;
     bottom: -12px;
+  }
+  
+  .hero-image-wrapper,
+  .about-image-wrapper {
+    max-width: 100%;
   }
   
   .project-content,
