@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
@@ -16,171 +16,146 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js" defer></script>
   <script type="text/javascript" src="assets/js/main.js" defer></script>
   <title>Barbara Drummond</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
 </head>
-<header>
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid nav">
-      <a class="navbar-brand nav-logo" href="#">
-        </svg>Barbara Drummond</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <svg width="31px" height="31px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-          stroke="#000000">
-          <g id="SVGRepo_bgCarrier" stroke-width="0" />
-
-          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
-
-          <g id="SVGRepo_iconCarrier">
-            <g clip-path="url(#clip0_429_11066)">
-              <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#ffffff" stroke-width="2.5"
-                stroke-linecap="round" stroke-linejoin="round" />
-            </g>
-            <defs>
-              <clipPath id="clip0_429_11066">
-                <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)" />
-              </clipPath>
-            </defs>
-          </g>
-        </svg>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <span class="nav-span"></span>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
 
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container nav-container">
+        <a class="navbar-brand nav-logo" href="#">
+          <span class="logo-text">Barbara Drummond</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <svg width="28px" height="28px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#ffffff" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
   <!--Home-->
-  <div class="px-4 hero d-flex align-items-center justify-content-center layout-dark">
-    <div class="page-header text-center">
-      <h1 class="fw-bold mb-0 home-name">DRUMMONDB.</h1>
-      <h2 class="fw-light mt-3 mb-5 text-white" style="font-size: 1.5rem; opacity: 50%">
-        <p>I'm a <span class="typed" data-typed-items="Software Engineer, Game Developer, UX/UI Researcher"></span></p>
-      </h2>
-      <div class="d-flex flex-md-row flex-column align-items-center justify-content-center gap-4 contact">
-        <a class="github-btn fw-bold" href="https://github.com/BabiDrummond/" target="_blank">
-          <svg class="mb-1" stroke="currentColor" fill="currentColor" stroke-width="0"
-            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="1em" height="1em">
-            <path
-              d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
-            </path>
-          </svg>
-          <span>Github</span>
-        </a>
-        
-      </div>
-      <a href="#about">
-        <div style="position: absolute; left: 0;width: 100%; margin-top: 8rem;">
-          <span><svg width="2.2rem" height="2.2rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-              stroke="#eab6ce">
-              <g id="SVGRepo_bgCarrier" stroke-width="0" />
-              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M12 9V6M12 22V22C15.866 22 19 18.866 19 15V9C19 5.13401 15.866 2 12 2V2C8.13401 2 5 5.13401 5 9V15C5 18.866 8.13401 22 12 22Z"
-                  stroke="#eab6ce" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              </g>
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+        <div class="hero-badge">Software Engineer</div>
+        <h1 class="hero-name">DRUMMONDB<span class="accent-dot">.</span></h1>
+        <p class="hero-tagline">
+          I'm a <span class="typed" data-typed-items="Software Engineer, Game Developer, Researcher"></span>
+        </p>
+        <div class="hero-cta">
+          <a class="btn-primary-custom" href="https://github.com/BabiDrummond/" target="_blank">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="20" height="20">
+              <path
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+              </path>
             </svg>
-          </span>
-          <span class="text-white" style="opacity: 80%; ">Scroll down</span>
-          <span><svg width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-              class="updown-animate">
-              <g id="SVGRepo_bgCarrier" stroke-width="0" />
-              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
-              <g id="SVGRepo_iconCarrier">
-                <path d="M12 7L12 16" stroke="#eab6ce" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" />
-                <path d="M8 13L12 17L16 13" stroke="#eab6ce" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" />
-              </g>
-            </svg>
-          </span>
+            <span>Github</span>
+          </a>
+          <a class="btn-secondary-custom" href="#portfolio">
+            View Work
+          </a>
         </div>
-      </a>
+      </div>
+      <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+        <div class="hero-image-wrapper">
+          <img src="assets/img/hero-img.jpg" alt="Barbara Drummond" class="hero-image" id="hero-img"/>
+          <div class="hero-image-glow"></div>
+        </div>
+      </div>
     </div>
-  </div>
+    <a href="#about" class="scroll-indicator">
+      <span class="scroll-text">Scroll down</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="scroll-arrow">
+        <path d="M12 7L12 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M8 13L12 17L16 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </a>
+  </section>
   
   <!--About-->
   <span id="about" class="anchor"></span>
-  <div id="about" class="container-fluid" style="background-color: #eae5e7; overflow-x: hidden;">
-    <div class="layout-light container">
-      <h1 class="text-center fw-bold about-header" >
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-fill"
-          viewBox="0 0 16 16">
-          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
-        </svg>
-        About
-      </h1>
-      <div class="d-flex flex-lg-row flex-column container-fluid align-items-center justify-content-center gap-4 pb-5">
-        <div class="p-md-5">
-          <img src="assets/img/hero-img.jpg" class="about-prof shadow"
-            data-aos="fade-right" id="hero-img"/>
+  <section class="section-about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-badge">Introduction</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-image" data-aos="fade-right" data-aos-duration="800">
+          <div class="about-image-wrapper">
+            <img src="assets/img/about-img.jpg" alt="Barbara Drummond" />
+            <div class="about-image-border"></div>
+          </div>
         </div>
-        <div class="p-md-5 p-4 w-100 shadow" style="
-              text-indent: 2rem;
-              background-color: white;
-              border-radius: 1rem;
-            " data-aos="fade-left">
-          <p style="text-align: justify;">
-            I’m a Software Engineer currently working on <b>backend systems at iFood</b>.
-            My journey in technology started in 2017 and has taken me through <b>software development, cybersecurity, game development and Human-Computer Interaction research</b>.
-            This diverse background shaped how I approach engineering problems — combining analytical thinking, system reliability and user-centered design.
-            I hold a <b>Master’s degree in Computer Science (HCI)</b> and I’m also part of <b>42 School’s project-based Software Engineering program</b>, where I focus on low-level programming and operating systems concepts.
-            I enjoy solving complex problems, improving existing systems and turning ideas into working software.
-          </p>
+        <div class="about-text" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+          <div class="about-card">
+            <p>
+              I'm a Software Engineer currently working on <strong>backend systems at iFood</strong>.
+              My journey in technology started in 2017 and has taken me through <strong>software development, cybersecurity, game development and Human-Computer Interaction research</strong>.
+              This diverse background shaped how I approach engineering problems — combining analytical thinking, system reliability and user-centered design.
+              I hold a <strong>Master's degree in Computer Science (HCI)</strong> and I'm also part of <strong>42 School's project-based Software Engineering program</strong>, where I focus on low-level programming and operating systems concepts.
+              I enjoy solving complex problems, improving existing systems and turning ideas into working software.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
-    <!--Portfolio-->
+  <!--Portfolio-->
   <span id="portfolio" class="anchor"></span>
-  <div id="portfolio" class="container-fluid box-dark">
-    <div class="layout-dark container">
-      <h1 class="text-center fw-bold about-header text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bullseye"
-          viewBox="0 0 16 16">
-          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
-          <path d="M8 13A5 5 0 1 1 8 3a5 5 0 0 1 0 10zm0 1A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"></path>
-          <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path>
-          <path d="M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
-        </svg>
-        Portfolio
-      </h1>
+  <section class="section-portfolio">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-badge">My Work</span>
+        <h2 class="section-title section-title-light">Portfolio</h2>
+      </div>
 
       <!--Featured Projects -->
-      <div class="portfolio-container" data-aos="zoom-in">
-        <h3 class="resume-title text-center">Featured Projects</h3>
+      <div class="portfolio-section" data-aos="fade-up">
+        <h3 class="subsection-title">Featured Projects</h3>
         <div class="projects-grid">
+          
+          <!-- Featured Project - Passaporte -->
           <div class="project-card">
-            <a href="https://www.figma.com/proto/f6QqEOHUwbsWQvT8VssFq5/WebPages?node-id=1-3/" target="_blank" rel="noreferrer">
-            <img src="assets/img/passaportevsp.jpg" alt="Passaporte">
+            <a href="https://www.figma.com/proto/f6QqEOHUwbsWQvT8VssFq5/WebPages?node-id=1-3/" target="_blank" rel="noreferrer" class="project-image-link">
+              <img src="assets/img/passaportevsp.jpg" alt="Passaporte">
+              <div class="project-overlay">
+                <span class="project-view">View Project</span>
+              </div>
             </a>
-
-            <!-- Passaporte Visite SP -->
             <div class="project-content">
-              <h4>Passaporte Visite São Paulo</h4>
+              <div class="project-header">
+                <span class="project-badge">1st Place Hackathon</span>
+                <h4>Passaporte Visite Sao Paulo</h4>
+              </div>
               <p>
                 First-place hackathon-winning MVP focused on connecting users to local tourism experiences.
                 Led UX research activities including interviews, persona creation and user journey mapping. Defined the product value proposition and designed user flows, from paper wireframes to high-fidelity prototypes.
@@ -198,36 +173,19 @@
             </div>
           </div>
 
-          <!-- Atlantic Bakery -->
-          <div class="project-card">
-            <a href="https://www.figma.com/proto/lRO1yWZh6xZVbkTwaUcdZd/BakeryMockup?node-id=204-1666" target="_blank" rel="noreferrer">
-            <img src="assets/img/atlanticbakery.jpg" alt="Atlantic Bakery">
-            </a>
-            <div class="project-content">
-              <h4>Atlantic Bakery App</h4>
-              <p>
-                Mobile ordering experience designed from research to prototype,
-              focusing on usability, navigation flow and checkout interactions.
-              </p>
-              <div class="tags">
-                <span>Figma</span>
-                <span>UX Research</span>
-                <span>User Journey</span>
-                <span>Prototyping</span>
-                <span>Interaction Design</span>
-                <span>Product Strategy</span>
-                <span>Personal Project</span>
-              </div>
-            </div>
-          </div>
-
           <!-- Minishell -->
           <div class="project-card">
-            <a href="https://github.com/ft-cursus/minishell" target="_blank" rel="noreferrer">
-            <img src="assets/img/minishell.png" alt="Minishell">
+            <a href="https://github.com/ft-cursus/minishell" target="_blank" rel="noreferrer" class="project-image-link">
+              <img src="assets/img/minishell.png" alt="Minishell">
+              <div class="project-overlay">
+                <span class="project-view">View Project</span>
+              </div>
             </a>
             <div class="project-content">
-              <h4>Minishell</h4>
+              <div class="project-header">
+                <span class="project-badge project-badge-progress">In Progress</span>
+                <h4>Minishell</h4>
+              </div>
               <p>
                 Unix-like shell implementation in C developed in a pair-programming context, implementing process management, pipelines, redirections and signal handling.
                 Project explores command parsing, environment management and execution orchestration, deepening understanding of POSIX systems and shell behavior.
@@ -240,64 +198,18 @@
                 <span>Parsing</span>
                 <span>POSIX</span>
                 <span>42 School</span>
-                <span>In Progress</span>
               </div>
             </div>
           </div>
 
-          <!-- LoveMonster -->
-          <div class="project-card">
-            <a href="https://monsterpaper.playlovemonster.com/our-games/arena-of-legends/game-description" target="_blank" rel="noreferrer">
-            <img src="assets/img/lovemonster.jpg" alt="LoveMonster"/>
-            </a>
-            <div class="project-content">
-              <h4>LoveMonster Multiplayer Game</h4>
-              <p>
-                Multiplayer Web3 game where I implemented gameplay mechanics in Unity (C#), contributed to real-time multiplayer server features using TypeScript, and supported web platform development with ASP.NET.
-                Also collaborated on blockchain integration using Solidity and performed security testing activities.
-              </p>
-              <div class="tags">
-                <span>Unity</span>
-                <span>C#</span>
-                <span>Multiplayer</span>
-                <span>TypeScript</span>
-                <span>ASP.NET</span>
-                <span>Solidity</span>
-                <span>Blockchain</span>
-                <span>Pentesting</span>
-                <span>Freelance</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Flash Delirium -->
-          <div class="project-card">
-            <a href="https://drummondb.itch.io/flashdelirium" target="_blank" rel="noreferrer">
-            <img src="assets/img/flashdelirium.jpg" alt="Flash Delirium"/>
-            </a>
-            <div class="project-content">
-              <h4>Flash Delirium Game</h4>
-              <p>
-              Authorial 2D action-adventure game fully designed and implemented in Unity (C#), featuring exploration mechanics, real-time combat, item collection systems and puzzle-based progression.
-              Developed core gameplay systems end-to-end, including dialogue flow logic, level design across multiple worlds, UI interactions and narrative progression.
-              </p>
-              <div class="tags">
-                <span>Unity</span>
-                <span>C#</span>
-                <span>Game Design</span>
-                <span>Gameplay Systems</span>
-                <span>Level Design</span>
-                <span>Narrative</span>
-                <span>UI Systems</span>
-                <span>Personal Project</span>
-              </div>
-            </div>
-          </div>
-
+          
           <!-- So_long -->
           <div class="project-card">
-            <a href="https://github.com/babiDrummond/so_long" target="_blank" rel="noreferrer">
-            <img src="assets/img/so_long.jpg" alt="So_long"/>
+            <a href="https://github.com/babiDrummond/so_long" target="_blank" rel="noreferrer" class="project-image-link">
+              <img src="assets/img/so_long.jpg" alt="So_long"/>
+              <div class="project-overlay">
+                <span class="project-view">View Project</span>
+              </div>
             </a>
             <div class="project-content">
               <h4>So_long Game</h4>
@@ -321,21 +233,103 @@
             </div>
           </div>
 
+          <!-- LoveMonster -->
+          <div class="project-card">
+            <a href="https://monsterpaper.playlovemonster.com/our-games/arena-of-legends/game-description" target="_blank" rel="noreferrer" class="project-image-link">
+              <img src="assets/img/lovemonster.jpg" alt="LoveMonster"/>
+              <div class="project-overlay">
+                <span class="project-view">View Project</span>
+              </div>
+            </a>
+            <div class="project-content">
+              <h4>LoveMonster Multiplayer Game</h4>
+              <p>
+                Multiplayer Web3 game where I implemented gameplay mechanics in Unity (C#), contributed to real-time multiplayer server features using TypeScript, and supported web platform development with ASP.NET.
+                Also collaborated on blockchain integration using Solidity and performed security testing activities.
+              </p>
+              <div class="tags">
+                <span>Unity</span>
+                <span>C#</span>
+                <span>Multiplayer</span>
+                <span>TypeScript</span>
+                <span>ASP.NET</span>
+                <span>Solidity</span>
+                <span>Blockchain</span>
+                <span>Pentesting</span>
+                <span>Freelance</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flash Delirium -->
+          <div class="project-card">
+            <a href="https://drummondb.itch.io/flashdelirium" target="_blank" rel="noreferrer" class="project-image-link">
+              <img src="assets/img/flashdelirium.jpg" alt="Flash Delirium"/>
+              <div class="project-overlay">
+                <span class="project-view">View Project</span>
+              </div>
+            </a>
+            <div class="project-content">
+              <h4>Flash Delirium Game</h4>
+              <p>
+              Authorial 2D action-adventure game fully designed and implemented in Unity (C#), featuring exploration mechanics, real-time combat, item collection systems and puzzle-based progression.
+              Developed core gameplay systems end-to-end, including dialogue flow logic, level design across multiple worlds, UI interactions and narrative progression.
+              </p>
+              <div class="tags">
+                <span>Unity</span>
+                <span>C#</span>
+                <span>Game Design</span>
+                <span>Gameplay Systems</span>
+                <span>Level Design</span>
+                <span>Narrative</span>
+                <span>UI Systems</span>
+                <span>Personal Project</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Atlantic Bakery -->
+          <div class="project-card">
+            <a href="https://www.figma.com/proto/lRO1yWZh6xZVbkTwaUcdZd/BakeryMockup?node-id=204-1666" target="_blank" rel="noreferrer" class="project-image-link">
+              <img src="assets/img/atlanticbakery.jpg" alt="Atlantic Bakery">
+              <div class="project-overlay">
+                <span class="project-view">View Project</span>
+              </div>
+            </a>
+            <div class="project-content">
+              <h4>Atlantic Bakery App</h4>
+              <p>
+                Mobile ordering experience designed from research to prototype,
+              focusing on usability, navigation flow and checkout interactions.
+              </p>
+              <div class="tags">
+                <span>Figma</span>
+                <span>UX Research</span>
+                <span>User Journey</span>
+                <span>Prototyping</span>
+                <span>Interaction Design</span>
+                <span>Product Strategy</span>
+                <span>Personal Project</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
       <!--Research & Presentations -->
-      <div class="portfolio-container" data-aos="zoom-in">
-        <h3 class="resume-title text-center">Research & Presentations</h3>
-        <div class="projects-grid">
+      <div class="portfolio-section" data-aos="fade-up">
+        <h3 class="subsection-title">Research & Presentations</h3>
+        <div class="research-grid">
           
           <!-- FATEC -->
-          <div class="project-card">
-            <a href="" target="_blank" rel="noreferrer">
-            <img src="assets/img/fatec2025.jpg" alt="Fatec">
+          <div class="research-card">
+            <div class="research-year">2025</div>
+            <a href="" target="_blank" rel="noreferrer" class="research-image-link">
+              <img src="assets/img/fatec2025.jpg" alt="Fatec">
             </a>
-            <div class="project-content">
-              <h4>FATEC (2025)</h4>
+            <div class="research-content">
+              <h4>FATEC</h4>
               <p>
                 Invited presentation at FATEC for tourism students, showcasing the award-winning Passaporte SP solution and discussing product design and digital experience innovation in tourism.
               </p>
@@ -350,14 +344,15 @@
           </div>
 
           <!-- Expo Forum -->
-          <div class="project-card">
-            <a href="" target="_blank" rel="noreferrer">
-            <img src="assets/img/expoforum2024.jpg" alt="Expo Forum">
+          <div class="research-card">
+            <div class="research-year">2024</div>
+            <a href="" target="_blank" rel="noreferrer" class="research-image-link">
+              <img src="assets/img/expoforum2024.jpg" alt="Expo Forum">
             </a>
-            <div class="project-content">
-              <h4>Expo Forum (2024)</h4>
+            <div class="research-content">
+              <h4>Expo Forum</h4>
               <p>
-                Industry presentation at Expo Forum (2024), showcasing the award-winning tourism experience platform developed during the Visite São Paulo Hackathon.
+                Industry presentation at Expo Forum (2024), showcasing the award-winning tourism experience platform developed during the Visite Sao Paulo Hackathon.
               </p>
               <div class="tags">
                 <span>Product Presentation</span>
@@ -369,13 +364,44 @@
             </div>
           </div>
 
-          <!-- Framework ATIV -->
-          <div class="project-card">
-            <a href="https://sol.sbc.org.br/index.php/waihcws/article/view/32172" target="_blank" rel="noreferrer">
-            <img src="assets/img/IHC2024.jpg" alt="IHC">
+          <!-- ELLAS -->
+          <div class="research-card">
+            <div class="research-year">2022-2024</div>
+            <a href="https://ellas.ufmt.br/pt/inicio/" target="_blank" rel="noreferrer" class="research-image-link">
+              <img src="assets/img/ELLAS2023.jpg" alt="ELLAS">
+              <div class="research-overlay">
+                <span class="research-view">View Project</span>
+              </div>
             </a>
-            <div class="project-content">
-              <h4>From Barriers to Inclusion: A Female-Inclusive Assessment Framework for Interface Evaluation (2024)</h4>
+            <div class="research-content">
+              <h4>ELLAS — Equality in Leadership for Latin American STEM</h4>
+              <p>
+                Contributed to UX research and interaction design activities within an international research network focused on gender equality policies in STEM leadership across Latin America.
+              </p>
+              <div class="tags">
+                <span>Academic Research</span>
+                <span>HCI Research</span>
+                <span>Inclusive Design</span>
+                <span>Interface Evaluation</span>
+                <span>International Collaboration</span>
+                <span>Collaborating Researcher</span>
+                <span>Volunteer</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Framework ATIV -->
+          <div class="research-card">
+            <div class="research-year">2024</div>
+            <a href="https://sol.sbc.org.br/index.php/waihcws/article/view/32172" target="_blank" rel="noreferrer" class="research-image-link">
+              <img src="assets/img/IHC2024.jpg" alt="IHC">
+              <div class="research-overlay">
+                <span class="research-view">View Paper</span>
+              </div>
+            </a>
+            <div class="research-content">
+              <span class="research-type">Full Paper</span>
+              <h4>From Barriers to Inclusion: A Female-Inclusive Assessment Framework for Interface Evaluation</h4>
               <p>
                 Research proposing ATIV, a female-inclusive framework for evaluating interface design, grounded in feminist HCI values and validated through empirical studies with HCI specialists.
               </p>
@@ -387,18 +413,22 @@
                 <span>Empirical Study</span>
                 <span>Web Social</span>
                 <span>Conference Presentation</span>
-                <span>Full Paper</span>
               </div>
             </div>
           </div>
 
           <!-- Mapping Contextual Aspects -->
-          <div class="project-card">
-            <a href="https://revistas.ulima.edu.pe/index.php/Interfases/article/view/6610" target="_blank" rel="noreferrer">
-            <img src="assets/img/peru2023.jpg" alt="ELLAS">
+          <div class="research-card">
+            <div class="research-year">2023</div>
+            <a href="https://revistas.ulima.edu.pe/index.php/Interfases/article/view/6610" target="_blank" rel="noreferrer" class="research-image-link">
+              <img src="assets/img/peru2023.jpg" alt="ELLAS">
+              <div class="research-overlay">
+                <span class="research-view">View Paper</span>
+              </div>
             </a>
-            <div class="project-content">
-              <h4>Mapping Contextual Aspects that Influence Women in Computing in Latin America (2023)</h4>
+            <div class="research-content">
+              <span class="research-type">Full Paper</span>
+              <h4>Mapping Contextual Aspects that Influence Women in Computing in Latin America</h4>
               <p>
                 Systematic mapping study investigating contextual factors influencing women's careers and leadership in computing across Latin America, contributing data to gender equality policy initiatives.
               </p>
@@ -411,18 +441,22 @@
                 <span>Latin America</span>
                 <span>Data Analysis</span>
                 <span>Conference Presentation</span>
-                <span>Full Paper</span>
               </div>
             </div>
           </div>
 
           <!-- Challenges Game Industry -->
-          <div class="project-card">
-            <a href="https://sol.sbc.org.br/index.php/wit/article/view/20869" target="_blank" rel="noreferrer">
-            <img src="assets/img/CSBC2022.jpg" alt="CSBC">
+          <div class="research-card">
+            <div class="research-year">2022</div>
+            <a href="https://sol.sbc.org.br/index.php/wit/article/view/20869" target="_blank" rel="noreferrer" class="research-image-link">
+              <img src="assets/img/CSBC2022.jpg" alt="CSBC">
+              <div class="research-overlay">
+                <span class="research-view">View Paper</span>
+              </div>
             </a>
-            <div class="project-content">
-              <h4>What Are the Challenges Faced by Women in the Games Industry? (2022)</h4>
+            <div class="research-content">
+              <span class="research-type">Full Paper</span>
+              <h4>What Are the Challenges Faced by Women in the Games Industry?</h4>
               <p>
                 Systematic literature review analyzing barriers faced by women in the games industry and approaches adopted by companies to promote gender inclusion.
               </p>
@@ -434,7 +468,6 @@
                 <span>Game Development</span>
                 <span>Workplace Diversity</span>
                 <span>Conference Presentation</span>
-                <span>Full Paper</span>
               </div>
             </div>
           </div>
@@ -443,19 +476,28 @@
       </div>
 
       <!--Awards -->
-      <div class="portfolio-container" data-aos="zoom-in">
-        <h3 class="resume-title text-center">Honors & Awards</h3>
-        <div class="projects-grid">
-          <div class="project-card">
-            <a href="https://www.figma.com/proto/f6QqEOHUwbsWQvT8VssFq5/WebPages?node-id=1-3/" target="_blank" rel="noreferrer">
-            <img src="assets/img/hackathon2024.jpg" alt="Passaporte">
+      <div class="portfolio-section" data-aos="fade-up">
+        <h3 class="subsection-title">Honors & Awards</h3>
+        <div class="awards-grid">
+          
+          <div class="award-card">
+            <div class="award-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="6"></circle>
+                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+              </svg>
+            </div>
+            <a href="https://www.figma.com/proto/f6QqEOHUwbsWQvT8VssFq5/WebPages?node-id=1-3/" target="_blank" rel="noreferrer" class="award-image-link">
+              <img src="assets/img/hackathon2024.jpg" alt="Passaporte">
+              <div class="project-overlay">
+                <span class="project-view">View Project</span>
+              </div>
             </a>
-
-            <!-- Passaporte Visite SP -->
-            <div class="project-content">
-              <h4>Hackathon Visite São Paulo (2024)</h4>
+            <div class="award-content">
+              <span class="award-year">2024</span>
+              <h4>Hackathon Visite Sao Paulo</h4>
               <p>
-                Winning solution in 1st place at the Hackathon Visite São Paulo 2024 challenge.
+                Winning solution in 1st place at the Hackathon Visite Sao Paulo 2024 challenge.
               </p>
               <div class="tags">
                 <span>MVP</span>
@@ -466,13 +508,26 @@
             </div>
           </div>
 
-          <!-- Awarded Paper -->
-          <div class="project-card">
-            <a href="https://sol.sbc.org.br/index.php/wit/article/view/20869" target="_blank" rel="noreferrer">
-            <img src="assets/img/awardpaper2022.jpg" alt="Awarded Paper">
+          <div class="award-card">
+            <div class="award-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                <path d="M4 22h16"></path>
+                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+              </svg>
+            </div>
+            <a href="https://sol.sbc.org.br/index.php/wit/article/view/20869" target="_blank" rel="noreferrer" class="award-image-link">
+              <img src="assets/img/awardedpaper2022.png" alt="Awarded Paper">
+              <div class="project-overlay">
+                <span class="project-view">View Paper</span>
+              </div>
             </a>
-            <div class="project-content">
-              <h4>Outstanding Paper Award for Relevance to the IT Industry (2022)</h4>
+            <div class="award-content">
+              <span class="award-year">2022</span>
+              <h4>Outstanding Paper Award for Relevance to the IT Industry</h4>
               <p>
                 The paper titled "What Are the Challenges Faced by Women in the Games Industry?" received the Outstanding Paper Award for Relevance to the IT Industry from the XVI WIT - Women in Information Technology.
               </p>
@@ -489,200 +544,213 @@
       </div>
 
     </div>
-  </div>
+  </section>
 
   <!--Resume-->
   <span id="resume" class="anchor"></span>
-  <div id="resume" class="container-fluid" style="background-color: #eae5e7; overflow-x: hidden;">
-    <div class="layout-light container">
-      <h1 class="text-center fw-bold about-header">
-        <svg width="3rem" height="3rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g id="SVGRepo_bgCarrier" stroke-width="0" />
-
-          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
-
-          <g id="SVGRepo_iconCarrier">
-            <path
-              d="M22 4.66994V16.74C22 17.7 21.22 18.5999 20.26 18.7199L19.93 18.76C17.75 19.05 14.39 20.1599 12.47 21.2199C12.21 21.3699 11.78 21.3699 11.51 21.2199L11.47 21.2C9.54997 20.15 6.20003 19.05 4.03003 18.76L3.73999 18.7199C2.77999 18.5999 2 17.7 2 16.74V4.65993C2 3.46993 2.96997 2.56994 4.15997 2.66994C6.25997 2.83994 9.43997 3.89997 11.22 5.00997L11.47 5.15993C11.76 5.33994 12.24 5.33994 12.53 5.15993L12.7 5.04995C13.33 4.65995 14.13 4.26994 15 3.91994V7.99996L17 6.66994L19 7.99996V2.77999C19.27 2.72999 19.53 2.69995 19.77 2.67995H19.83C21.02 2.57995 22 3.46994 22 4.66994Z"
-              stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M12 5.48999V20.49" stroke="#000000" stroke-width="1.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-            <path d="M19 2.78003V8L17 6.66998L15 8V3.91998C16.31 3.39998 17.77 2.98003 19 2.78003Z" stroke="#000000"
-              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-          </g>
-        </svg>
-        Resume
-      </h1>
-      <div
-        class="d-flex flex-lg-row flex-column-reverse flex-lg-row flex-column container-fluid align-items-center justify-content-center gap-4 pb-5">
-        <div class="p-md-10 p-4 w-100 shadow" style="
-              text-indent: 2rem;
-              background-color: white;
-              border-radius: 1rem;
-            " data-aos="fade-right">
-            <div class="container" data-aos="fade-up">
-              <div class="row">
-                <div class="col-lg-6">
-                  <h3 class="resume-title">Education</h3>
-                  <div class="resume-item">
-                    <h4>Software Engineering Program</h4>
-                    <h5>42 School</h5>
-                    <p><em>2025 - Current</em></p>
-                  </div>
-                  <div class="resume-item">
-                    <h4>Master's Degree in Computer Science (GPA 3.5)</h4>
-                    <h5>Federal Fluminense University (UFF)</h5>
-                    <p><em>2020 - 2024</em></p>
-                  </div>
-                  <div class="resume-item">
-                    <h4>Exchange Program - Business Information Systems</h4>
-                    <h5>Karlsruhe University of Applied Sciences (HKA)</h5>
-                    <p><em>2019 - 2019</em></p>
-                  </div>
-                  <div class="resume-item">
-                    <h4>Bachelor of Information Systems (GPA 3.5)</h4>
-                    <h5>Federal Fluminense University (UFF)</h5>
-                    <p><em>2015 - 2019</em></p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <h3 class="resume-title">Professional Experience</h3>
-                  <div class="resume-item">
-                    <h4>Software Engineer</h4>
-                    <h5>IFood</h5>
-                    <p><em>2025 - Current</em></p>
-                  </div>
-                  <div class="resume-item">
-                    <h4>Software Engineer</h4>
-                    <h5>Halliburton</h5>
-                    <p><em>2024 - 2024</em></p>
-                  </div>
-                  <div class="resume-item">
-                    <h4>Cybersecurity Engineer</h4>
-                    <h5>Andritz</h5>
-                    <p><em>2022 - 2023</em></p>
-                  </div>
-                  <div class="resume-item">
-                    <h4>Cybersecurity Engineer</h4>
-                    <h5>Mercado Bitcoin</h5>
-                    <p><em>2021 - 2022</em></p>
-                  </div>
-                  <div class="resume-item">
-                    <h4>Software Development Intern</h4>
-                    <h5>The Marlo Group</h5>
-                    <p><em>2019 - 2020</em></p>
-                  </div>
-                  <div class="resume-item">
-                    <h4>IT Intern</h4>
-                    <h5>IBM</h5>
-                    <p><em>2017 - 2019</em></p>
-                  </div>
-                </div>
+  <section class="section-resume">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-badge">Background</span>
+        <h2 class="section-title">Resume</h2>
+      </div>
+      <div class="resume-content" data-aos="fade-up" data-aos-delay="100">
+        <div class="resume-column">
+          <h3 class="resume-column-title">Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2025 - Current</span>
+                <h4>Software Engineering Program</h4>
+                <p class="timeline-org">42 School</p>
               </div>
             </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2020 - 2024</span>
+                <h4>Master's Degree in Computer Science (GPA 3.5)</h4>
+                <p class="timeline-org">Federal Fluminense University (UFF)</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2019 - 2019</span>
+                <h4>Exchange Program - Business Information Systems</h4>
+                <p class="timeline-org">Karlsruhe University of Applied Sciences (HKA)</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2015 - 2019</span>
+                <h4>Bachelor of Information Systems (GPA 3.5)</h4>
+                <p class="timeline-org">Federal Fluminense University (UFF)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="resume-column">
+          <h3 class="resume-column-title">Professional Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker timeline-marker-active"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2025 - Current</span>
+                <h4>Software Engineer</h4>
+                <p class="timeline-org">IFood</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2024 - 2024</span>
+                <h4>Software Engineer</h4>
+                <p class="timeline-org">Halliburton</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2022 - 2023</span>
+                <h4>Cybersecurity Engineer</h4>
+                <p class="timeline-org">Andritz</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2021 - 2022</span>
+                <h4>Cybersecurity Engineer</h4>
+                <p class="timeline-org">Mercado Bitcoin</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2019 - 2020</span>
+                <h4>Software Development Intern</h4>
+                <p class="timeline-org">The Marlo Group</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2017 - 2019</span>
+                <h4>IT Intern</h4>
+                <p class="timeline-org">IBM</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!--Skills-->
   <span id="skills" class="anchor"></span>
-  <div id="skills" class="container-fluid box-dark">
-      <div class="layout-dark-skills container">
-        <h1 class="text-center fw-bold about-header text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-          class="bi bi-tools" viewBox="0 0 16 16">
-            <path d="M1 0a1 1 0 0 0-1 1v3h1V1h3V0H1zm10 0v1h3v3h1V1a1 1 0 0 
-            0-1-1h-3zM0 12v3a1 1 0 0 0 1 1h3v-1H1v-3H0zm15 
-            0h-1v3h-3v1h3a1 1 0 0 0 1-1v-3z"/>
-            <path d="M11.5 2.5a.5.5 0 0 1 .5.5V4h1.5a.5.5 0 0 1 
-            0 1H12v1.5a.5.5 0 0 1-1 0V5h-1.5a.5.5 0 0 
-            1 0-1H11V3a.5.5 0 0 1 .5-.5zM4.354 6.646a.5.5 0 0 
-            1 0 .708L3.207 8.5l1.147 1.146a.5.5 0 1 1-.708.708L2.146 
-            8.854a.5.5 0 0 1 0-.708l1.5-1.5a.5.5 0 0 1 .708 0z"/>
-          </svg>
-          Skills
-        </h1>
-        <!--Programming Languages-->
-        <div class="icon-container" data-aos="zoom-in">
-            <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 logo"/>
-            </a>
-            <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5 logo"/>
-            </a>
-            <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"> 
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap logo"/>
-            </a>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS logo"/>
-            </a>
-            <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> 
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TS logo"/>
-            </a>
-            <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
+  <section class="section-skills">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-badge">Technologies</span>
+        <h2 class="section-title section-title-light">Skills</h2>
+      </div>
+      <div class="skills-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="skills-group">
+          <h4 class="skills-group-title">Languages & Frameworks</h4>
+          <div class="skills-icons">
+            <a href="https://www.java.com" target="_blank" rel="noreferrer" class="skill-icon" title="Java"> 
               <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/java/java-original.svg" alt="Java logo"/>
             </a>
-            <a href="https://www.python.org" target="_blank" rel="noreferrer">
+            <a href="https://www.python.org" target="_blank" rel="noreferrer" class="skill-icon" title="Python">
               <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Python_logo_01.svg" alt="Python logo"/>
             </a>
-            <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> 
-              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Selenium.svg" alt="selenium" />
-          </a>
-          <a href="https://learn.microsoft.com/pt-br/dotnet/csharp/" target="_blank" rel="noreferrer"> 
-            <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/CS.svg" alt="csharp"/>
-          </a>
-          <a href="https://unity.com/" target="_blank" rel="noreferrer"> 
-            <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Unity-Light.svg" alt="unity"/>
-          </a>
-          <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo"/>
-          </a>
-          <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux logo"/>
-          </a>
-          <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
-            <img src="https://github.com/janrainjer/introduction-to-computer-engineering-lab/assets/88389821/74df1ff0-b8a7-40f6-815d-b9b2f6fe20ae" alt="Figma logo"/>
-          </a>
+            <a href="https://learn.microsoft.com/pt-br/dotnet/csharp/" target="_blank" rel="noreferrer" class="skill-icon" title="C#"> 
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/CS.svg" alt="csharp"/>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" rel="noreferrer" class="skill-icon" title="C">
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/C.svg" alt="c"/>
+            </a>
+            <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" class="skill-icon" title="CSS3"> 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 logo"/>
+            </a>
+            <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" class="skill-icon" title="HTML5"> 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5 logo"/>
+            </a>
+            <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer" class="skill-icon" title="Bootstrap"> 
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap logo"/>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" class="skill-icon" title="JavaScript"> 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS logo"/>
+            </a>
+            <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" class="skill-icon" title="TypeScript"> 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TS logo"/>
+            </a>
           </div>
+        </div>
+        <div class="skills-group">
+          <h4 class="skills-group-title">Tools & Platforms</h4>
+          <div class="skills-icons">
+            <a href="https://git-scm.com/" target="_blank" rel="noreferrer" class="skill-icon" title="Git"> 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo"/>
+            </a>
+            <a href="https://www.linux.org/" target="_blank" rel="noreferrer" class="skill-icon" title="Linux">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux logo"/>
+            </a>
+            <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer" class="skill-icon" title="Bash">
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Bash-Dark.svg" alt="bash"/>
+            </a>
+            <a href="https://unity.com/" target="_blank" rel="noreferrer" class="skill-icon" title="Unity"> 
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Unity-Light.svg" alt="unity"/>
+            </a>
+            <a href="https://www.figma.com/" target="_blank" rel="noreferrer" class="skill-icon" title="Figma"> 
+              <img src="https://github.com/janrainjer/introduction-to-computer-engineering-lab/assets/88389821/74df1ff0-b8a7-40f6-815d-b9b2f6fe20ae" alt="Figma logo"/>
+            </a>
+            <a href="https://www.selenium.dev" target="_blank" rel="noreferrer" class="skill-icon" title="Selenium"> 
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Selenium.svg" alt="selenium" />
+            </a>
+          </div>
+        </div>
       </div>
-  </div>
+    </div>
+  </section>
 
   <!--Footer-->
   <span id="contact" class="anchor"></span>
-  <footer class="footer text-white">
-    <div class="d-flex justify-content-center gap-3 pb-5">
-      <a href="https://github.com/BabiDrummond/" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#ffffff" viewBox="0 0 16 16">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-        </svg>
-      </a>
-      
-      <a href="https://www.linkedin.com/in/drummondb/" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="2.2rem" height="2.2rem" viewBox="0 0 16 16" stroke="#ffffff">
-          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-        </svg>
-      </a>
-
-      <a href="https://www.instagram.com/babidrummond" target="_blank">
-        <svg fill="#ffffff" width="2.2rem" height="2.2rem" viewBox="0 0 32 32" version="1.1"
-        xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
-        <path d="M25.805 7.996c0 0 0 0.001 0 0.001 0 0.994-0.806 1.799-1.799 1.799s-1.799-0.806-1.799-1.799c0-0.994 0.806-1.799 1.799-1.799v0c0.993 0.001 1.798 0.805 1.799 1.798v0zM16 20.999c-2.761 0-4.999-2.238-4.999-4.999s2.238-4.999 4.999-4.999c2.761 0 4.999 2.238 4.999 4.999v0c0 0 0 0.001 0 0.001 0 2.76-2.237 4.997-4.997 4.997-0 0-0.001 0-0.001 0h0zM16 8.3c0 0 0 0-0 0-4.253 0-7.7 3.448-7.7 7.7s3.448 7.7 7.7 7.7c4.253 0 7.7-3.448 7.7-7.7v0c0-0 0-0 0-0.001 0-4.252-3.447-7.7-7.7-7.7-0 0-0 0-0.001 0h0zM16 3.704c4.003 0 4.48 0.020 6.061 0.089 1.003 0.012 1.957 0.202 2.84 0.538l-0.057-0.019c1.314 0.512 2.334 1.532 2.835 2.812l0.012 0.034c0.316 0.826 0.504 1.781 0.516 2.778l0 0.005c0.071 1.582 0.087 2.057 0.087 6.061s-0.019 4.48-0.092 6.061c-0.019 1.004-0.21 1.958-0.545 2.841l0.019-0.058c-0.258 0.676-0.64 1.252-1.123 1.726l-0.001 0.001c-0.473 0.484-1.049 0.866-1.692 1.109l-0.032 0.011c-0.829 0.316-1.787 0.504-2.788 0.516l-0.005 0c-1.592 0.071-2.061 0.087-6.072 0.087-4.013 0-4.481-0.019-6.072-0.092-1.008-0.019-1.966-0.21-2.853-0.545l0.059 0.019c-0.676-0.254-1.252-0.637-1.722-1.122l-0.001-0.001c-0.489-0.47-0.873-1.047-1.114-1.693l-0.010-0.031c-0.315-0.828-0.506-1.785-0.525-2.785l-0-0.008c-0.056-1.575-0.076-2.061-0.076-6.053 0-3.994 0.020-4.481 0.076-6.075 0.019-1.007 0.209-1.964 0.544-2.85l-0.019 0.059c0.247-0.679 0.632-1.257 1.123-1.724l0.002-0.002c0.468-0.492 1.045-0.875 1.692-1.112l0.031-0.010c0.823-0.318 1.774-0.509 2.768-0.526l0.007-0c1.593-0.056 2.062-0.075 6.072-0.075zM16 1.004c-4.074 0-4.582 0.019-6.182 0.090-1.315 0.028-2.562 0.282-3.716 0.723l0.076-0.025c-1.040 0.397-1.926 0.986-2.656 1.728l-0.001 0.001c-0.745 0.73-1.333 1.617-1.713 2.607l-0.017 0.050c-0.416 1.078-0.67 2.326-0.697 3.628l-0 0.012c-0.075 1.6-0.090 2.108-0.090 6.182s0.019 4.582 0.090 6.182c0.028 1.315 0.282 2.562 0.723 3.716l-0.025-0.076c0.796 2.021 2.365 3.59 4.334 4.368l0.052 0.018c1.078 0.415 2.326 0.669 3.628 0.697l0.012 0c1.6 0.075 2.108 0.090 6.182 0.090s4.582-0.019 6.182-0.090c1.315-0.029 2.562-0.282 3.716-0.723l-0.076 0.026c2.021-0.796 3.59-2.365 4.368-4.334l0.018-0.052c0.416-1.078 0.669-2.326 0.697-3.628l0-0.012c0.075-1.6 0.090-2.108 0.090-6.182s-0.019-4.582-0.090-6.182c-0.029-1.315-0.282-2.562-0.723-3.716l0.026 0.076c-0.398-1.040-0.986-1.926-1.729-2.656l-0.001-0.001c-0.73-0.745-1.617-1.333-2.607-1.713l-0.050-0.017c-1.078-0.416-2.326-0.67-3.628-0.697l-0.012-0c-1.6-0.075-2.108-0.090-6.182-0.090z"></path>
-      </svg>
-      </a>
-
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="footer-logo">DrummondB</span>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/BabiDrummond/" target="_blank" class="social-link" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/drummondb/" target="_blank" class="social-link" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/babidrummond" target="_blank" class="social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg>
+          </a>
+        </div>
+        <nav class="footer-nav">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#resume">Resume</a>
+          <a href="#skills">Skills</a>
+        </nav>
+      </div>
     </div>
-    <div class="container text-center pb-3" style="width: 22rem">
-      <a href="#" class="footer-link">Home</a>
-      <span class="footer-point">•</span>
-      <a href="#about" class="footer-link">About</a>
-      <span class="footer-point">•</span>
-      <a href="#skills" class="footer-link">Skills</a>
-      <span class="footer-point">•</span>
-      <a href="#resume" class="footer-link">Resume</a>
-      <span class="footer-point">•</span>
-      <a href="#portfolio" class="footer-link">Portfolio</a>     
-    </div>
-    </div>
+  </footer>
 </body>
 </html>
