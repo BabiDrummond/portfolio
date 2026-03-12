@@ -7,19 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Barbara Drummond - Software Engineer at iFood specializing in backend systems, game development, and Human-Computer Interaction research. Master's degree in Computer Science." />
   
-  <!-- Preconnect to external domains -->
+  <!-- Preconnect to critical domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
-  <link rel="preconnect" href="https://unpkg.com">
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  
+  <!-- DNS prefetch for non-critical domains -->
+  <link rel="dns-prefetch" href="https://unpkg.com">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
   
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </noscript>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
@@ -96,7 +101,7 @@
       </div>
       <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
         <div class="hero-image-wrapper">
-          <img src="assets/img/hero-img.jpg" alt="Barbara Drummond" class="hero-image" id="hero-img" width="360" height="420" loading="eager"/>
+          <img src="assets/img/hero-img.webp" alt="Barbara Drummond" class="hero-image" id="hero-img" width="360" height="420" loading="eager"/>
           <div class="hero-image-glow"></div>
         </div>
       </div>
@@ -121,7 +126,7 @@
       <div class="about-content">
         <div class="about-image" data-aos="fade-right" data-aos-duration="800">
           <div class="about-image-wrapper">
-            <img src="assets/img/about-img.jpg" alt="Barbara Drummond" width="300" height="360" loading="lazy"/>
+            <img src="assets/img/about-img.webp" alt="Barbara Drummond" width="300" height="360" loading="lazy"/>
             <div class="about-image-border"></div>
           </div>
         </div>
@@ -157,7 +162,7 @@
           <!-- Featured Project - Passaporte -->
           <div class="project-card">
             <a href="https://www.figma.com/proto/f6QqEOHUwbsWQvT8VssFq5/WebPages?node-id=1-3/" target="_blank" rel="noreferrer" class="project-image-link">
-              <img src="assets/img/passaportevsp.jpg" alt="Passaporte" width="360" height="220" loading="lazy">
+              <img src="assets/img/passaportevsp.webp" alt="Passaporte" width="360" height="220" loading="lazy">
               <div class="project-overlay">
                 <span class="project-view">View More</span>
               </div>
@@ -187,7 +192,7 @@
           <!-- Minishell -->
           <div class="project-card">
             <a href="https://github.com/ft-cursus/minishell" target="_blank" rel="noreferrer" class="project-image-link">
-              <img src="assets/img/minishell.png" alt="Minishell" width="360" height="220" loading="lazy">
+              <img src="assets/img/minishell.webp" alt="Minishell" width="360" height="220" loading="lazy">
               <div class="project-overlay">
                 <span class="project-view">View More</span>
               </div>
@@ -217,7 +222,7 @@
           <!-- So_long -->
           <div class="project-card">
             <a href="https://github.com/babiDrummond/so_long" target="_blank" rel="noreferrer" class="project-image-link">
-              <img src="assets/img/so_long.jpg" alt="So_long" width="360" height="220" loading="lazy"/>
+              <img src="assets/img/so_long.webp" alt="So_long" width="360" height="220" loading="lazy"/>
               <div class="project-overlay">
                 <span class="project-view">View More</span>
               </div>
@@ -247,7 +252,7 @@
           <!-- LoveMonster -->
           <div class="project-card">
             <a href="https://monsterpaper.playlovemonster.com/our-games/arena-of-legends/game-description" target="_blank" rel="noreferrer" class="project-image-link">
-              <img src="assets/img/lovemonster.jpg" alt="LoveMonster" width="360" height="220" loading="lazy"/>
+              <img src="assets/img/lovemonster.webp" alt="LoveMonster" width="360" height="220" loading="lazy"/>
               <div class="project-overlay">
                 <span class="project-view">View More</span>
               </div>
@@ -275,7 +280,7 @@
           <!-- Flash Delirium -->
           <div class="project-card">
             <a href="https://drummondb.itch.io/flashdelirium" target="_blank" rel="noreferrer" class="project-image-link">
-              <img src="assets/img/flashdelirium.jpg" alt="Flash Delirium" width="360" height="220" loading="lazy"/>
+              <img src="assets/img/flashdelirium.webp" alt="Flash Delirium" width="360" height="220" loading="lazy"/>
               <div class="project-overlay">
                 <span class="project-view">View More</span>
               </div>
@@ -302,7 +307,7 @@
           <!-- Atlantic Bakery -->
           <div class="project-card">
             <a href="https://www.figma.com/proto/lRO1yWZh6xZVbkTwaUcdZd/BakeryMockup?node-id=204-1666" target="_blank" rel="noreferrer" class="project-image-link">
-              <img src="assets/img/atlanticbakery.jpg" alt="Atlantic Bakery" width="360" height="220" loading="lazy">
+              <img src="assets/img/atlanticbakery.webp" alt="Atlantic Bakery" width="360" height="220" loading="lazy">
               <div class="project-overlay">
                 <span class="project-view">View More</span>
               </div>
@@ -337,7 +342,7 @@
           <div class="research-card">
             <div class="research-year">2025</div>
             <a href="https://www.instagram.com/p/DGD7HXxpN3X/" target="_blank" rel="noreferrer" class="research-image-link">
-              <img src="assets/img/fatec2025.jpg" alt="Fatec" width="340" height="180" loading="lazy">
+              <img src="assets/img/fatec2025.webp" alt="Fatec" width="340" height="180" loading="lazy">
               <div class="research-overlay">
                 <span class="research-view">View More</span>
               </div>
@@ -361,7 +366,7 @@
           <div class="research-card">
             <div class="research-year">2024</div>
             <a href="https://visitesaopaulo.com/expoforum2024/" target="_blank" rel="noreferrer" class="research-image-link">
-              <img src="assets/img/expoforum2024.jpg" alt="Expo Forum" width="340" height="180" loading="lazy">
+              <img src="assets/img/expoforum2024.webp" alt="Expo Forum" width="340" height="180" loading="lazy">
               <div class="research-overlay">
                 <span class="research-view">View More</span>
               </div>
@@ -385,7 +390,7 @@
           <div class="research-card">
             <div class="research-year">2022-2024</div>
             <a href="https://ellas.ufmt.br/pt/inicio/" target="_blank" rel="noreferrer" class="research-image-link">
-              <img src="assets/img/ELLAS2023.jpg" alt="ELLAS" width="340" height="180" loading="lazy">
+              <img src="assets/img/ELLAS2023.webp" alt="ELLAS" width="340" height="180" loading="lazy">
               <div class="research-overlay">
                 <span class="research-view">View More</span>
               </div>
@@ -411,7 +416,7 @@
           <div class="research-card">
             <div class="research-year">2024</div>
             <a href="https://sol.sbc.org.br/index.php/waihcws/article/view/32172" target="_blank" rel="noreferrer" class="research-image-link">
-              <img src="assets/img/IHC2024.jpg" alt="IHC" width="340" height="180" loading="lazy">
+              <img src="assets/img/IHC2024.webp" alt="IHC" width="340" height="180" loading="lazy">
               <div class="research-overlay">
                 <span class="research-view">View More</span>
               </div>
@@ -438,7 +443,7 @@
           <div class="research-card">
             <div class="research-year">2023</div>
             <a href="https://revistas.ulima.edu.pe/index.php/Interfases/article/view/6610" target="_blank" rel="noreferrer" class="research-image-link">
-              <img src="assets/img/peru2023.jpg" alt="ELLAS" width="340" height="180" loading="lazy">
+              <img src="assets/img/peru2023.webp" alt="ELLAS" width="340" height="180" loading="lazy">
               <div class="research-overlay">
                 <span class="research-view">View More</span>
               </div>
@@ -466,7 +471,7 @@
           <div class="research-card">
             <div class="research-year">2022</div>
             <a href="https://sol.sbc.org.br/index.php/wit/article/view/20869" target="_blank" rel="noreferrer" class="research-image-link">
-              <img src="assets/img/CSBC2022.jpg" alt="CSBC" width="340" height="180" loading="lazy">
+              <img src="assets/img/CSBC2022.webp" alt="CSBC" width="340" height="180" loading="lazy">
               <div class="research-overlay">
                 <span class="research-view">View More</span>
               </div>
@@ -505,7 +510,7 @@
               </svg>
             </div>
             <a href="https://www.figma.com/proto/f6QqEOHUwbsWQvT8VssFq5/WebPages?node-id=1-3/" target="_blank" rel="noreferrer" class="award-image-link">
-              <img src="assets/img/hackathon2024.jpg" alt="Passaporte" width="400" height="200" loading="lazy">
+              <img src="assets/img/hackathon2024.webp" alt="Passaporte" width="400" height="200" loading="lazy">
               <div class="award-overlay">
                 <span class="award-view">View More</span>
               </div>
@@ -537,7 +542,7 @@
               </svg>
             </div>
             <a href="https://sol.sbc.org.br/index.php/wit/article/view/20869" target="_blank" rel="noreferrer" class="award-image-link">
-              <img src="assets/img/awardedpaper2022.png" alt="Awarded Paper" width="400" height="200" loading="lazy">
+              <img src="assets/img/awardedpaper2022.webp" alt="Awarded Paper" width="400" height="200" loading="lazy">
               <div class="award-overlay">
                 <span class="award-view">View More</span>
               </div>
