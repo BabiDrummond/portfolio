@@ -210,6 +210,7 @@ nav .navbar-collapse ul li a.nav-link:hover {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate 12s linear infinite;
+  will-change: background-position;
 }
 
 @keyframes animate {
@@ -347,6 +348,7 @@ nav .navbar-collapse ul li a.nav-link:hover {
 
 .scroll-arrow {
   animation: bounce 2s infinite;
+  will-change: transform;
 }
 
 @keyframes bounce {
