@@ -657,6 +657,7 @@ nav .navbar-collapse ul li a.nav-link:hover {
 }
 
 .research-image-link {
+  position: relative;
   display: block;
   overflow: hidden;
 }
@@ -773,6 +774,7 @@ nav .navbar-collapse ul li a.nav-link:hover {
 }
 
 .award-image-link {
+  position: relative;
   display: block;
   overflow: hidden;
 }
@@ -786,6 +788,29 @@ nav .navbar-collapse ul li a.nav-link:hover {
 
 .award-card:hover .award-image-link img {
   transform: scale(1.03);
+}
+
+.award-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(230, 57, 70, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition-base);
+}
+
+.award-card:hover .award-overlay {
+  opacity: 1;
+}
+
+.award-view {
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .award-content {
